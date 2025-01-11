@@ -1,4 +1,4 @@
-def insertion_sort_desc(arr):
+touch def insertion_sort_desc(arr):
     for i, current in enumerate(arr[1:], start=1):
         j = i - 1
         while j >= 0 and arr[j] < current:
